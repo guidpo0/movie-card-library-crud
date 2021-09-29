@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import MovieList from './pages/MovieList';
 import NewMovie from './pages/NewMovie';
 import MovieDetails from './pages/MovieDetails';
@@ -13,7 +13,7 @@ function App() {
       <header>
         <h1 className="header-title">Movie Cards Library</h1>
       </header>
-      <BrowserRouter basename="/movie-cards-library-crud">
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={ MovieList } />
           <Route exact path="/movies/new" component={ NewMovie } />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/movies/:id/edit" component={ EditMovie } />
           <Route path="" component={ NotFound } />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
