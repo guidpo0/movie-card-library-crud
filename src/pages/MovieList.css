@@ -1,0 +1,25 @@
+.movie-list-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-card-link {
+  background-color: rgba(12, 71, 4, 0.603);
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+  font-weight: 900;
+  margin: 30px;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.movie-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}

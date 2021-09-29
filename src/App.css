@@ -1,5 +1,18 @@
-body {
-  background-color: whitesmoke;
+* {
+  border: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background-color: rgba(56, 14, 21, 0.658);
+}
+
+header {
+  align-items: center;
+  background: linear-gradient(185deg, rgba(6, 42, 107, 0.63) 10%, rgb(0, 212, 255) 100%);
+  display: flex;
+  justify-content: center;
+  padding: 50px 5px;
+}

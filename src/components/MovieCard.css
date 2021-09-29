@@ -1,0 +1,35 @@
+.movie-card {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+.movie-card img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.movie-card h3 {
+  margin: 5px;
+}
+
+.movie-card p {
+  text-align: justify;
+}
+
+.movie-card a {
+  background-color: rgba(12, 71, 4, 0.2);
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+  font-weight: 900;
+  margin: 5px;
+  padding: 10px 5px;
+  text-decoration: none;
+}
