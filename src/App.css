@@ -6,13 +6,16 @@
 }
 
 body {
-  background-color: rgba(56, 14, 21, 0.658);
+  background-color: rgba(56, 14, 21, 0.4);
 }
 
 header {
   align-items: center;
-  background: linear-gradient(185deg, rgba(6, 42, 107, 0.63) 10%, rgb(0, 212, 255) 100%);
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  color: white;
   display: flex;
   justify-content: center;
   padding: 50px 5px;
+  text-shadow: 2px 2px black;
 }

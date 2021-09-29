@@ -13,7 +13,7 @@ function App() {
       <header>
         <h1 className="header-title">Movie Cards Library</h1>
       </header>
-      <BrowserRouter>
+      <BrowserRouter basename="/movie-cards-library-crud">
         <Switch>
           <Route exact path="/" component={ MovieList } />
           <Route exact path="/movies/new" component={ NewMovie } />
