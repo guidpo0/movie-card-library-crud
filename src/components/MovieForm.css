@@ -1,0 +1,59 @@
+.form-label, .movie-form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.add-title {
+  font-size: 1.8em;
+  margin: 20px;
+}
+
+.form-label {
+  width: 80%;
+}
+
+.form-label > * {
+  margin: 5px;
+}
+
+.form-label p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.form-label input, .form-label select, .form-label textarea {
+  border-radius: 5px;
+  font-size: 1.1em;
+  padding: 8px;
+  width: 90%;
+}
+
+.form-label textarea {
+  min-height: 150px;
+}
+
+.rate-genre-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rate-genre-container input, .rate-genre-container select {
+  width: 120px;
+}
+
+.add-button {
+  background-color: rgba(12, 71, 4, 0.603);
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 30px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
