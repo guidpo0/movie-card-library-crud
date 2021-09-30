@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  width: 60%;
 }
 
 .movie-details-container img {
@@ -46,4 +47,11 @@
   padding: 10px 5px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media screen and ( max-width : 767.98px ) {
+
+  .movie-details-container {
+    width: initial;
+  }
 }

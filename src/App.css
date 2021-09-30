@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 body {
   background-color: rgba(56, 14, 21, 0.4);
 }
@@ -12,10 +19,22 @@ body {
 header {
   align-items: center;
   background-image: url('./images/bg.jpg');
+  background-position-y: -60px;
   background-size: cover;
   color: white;
   display: flex;
+  font-size: 1.8em;
   justify-content: center;
-  padding: 50px 5px;
+  padding: 60px 5px;
   text-shadow: 2px 2px black;
+  width: 100%;
+}
+
+@media screen and ( max-width : 767.98px ) {
+
+  header {
+    background-position-y: 0;
+    font-size: initial;
+    padding: 50px 5px;
+  }
 }

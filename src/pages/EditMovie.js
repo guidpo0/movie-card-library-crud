@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { MovieForm, Loading } from '../components';
 import * as movieAPI from '../services/movieAPI';
+import './EditMovie.css';
 
 class EditMovie extends Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class EditMovie extends Component {
     return (
       status === 'loading' ? <Loading />
         : (
-          <div data-testid="edit-movie">
+          <div data-testid="edit-movie" className="edit-movie">
             <MovieForm
               title="Editar Filme"
               movie={ movie }
