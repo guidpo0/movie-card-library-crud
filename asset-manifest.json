@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/movie-cards-library-crud/static/css/main.1d49c535.chunk.css",
-    "main.js": "/movie-cards-library-crud/static/js/main.8c7b15cb.chunk.js",
-    "main.js.map": "/movie-cards-library-crud/static/js/main.8c7b15cb.chunk.js.map",
+    "main.css": "/movie-cards-library-crud/static/css/main.b33fde3d.chunk.css",
+    "main.js": "/movie-cards-library-crud/static/js/main.e1c1334e.chunk.js",
+    "main.js.map": "/movie-cards-library-crud/static/js/main.e1c1334e.chunk.js.map",
     "runtime-main.js": "/movie-cards-library-crud/static/js/runtime-main.ac7a69e8.js",
     "runtime-main.js.map": "/movie-cards-library-crud/static/js/runtime-main.ac7a69e8.js.map",
     "static/js/2.145a5b44.chunk.js": "/movie-cards-library-crud/static/js/2.145a5b44.chunk.js",
     "static/js/2.145a5b44.chunk.js.map": "/movie-cards-library-crud/static/js/2.145a5b44.chunk.js.map",
     "index.html": "/movie-cards-library-crud/index.html",
-    "precache-manifest.ef4c5c50b6aab0d94d5a9aec902da0c8.js": "/movie-cards-library-crud/precache-manifest.ef4c5c50b6aab0d94d5a9aec902da0c8.js",
+    "precache-manifest.2ca179448b77c5be209bed99e428564b.js": "/movie-cards-library-crud/precache-manifest.2ca179448b77c5be209bed99e428564b.js",
     "service-worker.js": "/movie-cards-library-crud/service-worker.js",
-    "static/css/main.1d49c535.chunk.css.map": "/movie-cards-library-crud/static/css/main.1d49c535.chunk.css.map",
+    "static/css/main.b33fde3d.chunk.css.map": "/movie-cards-library-crud/static/css/main.b33fde3d.chunk.css.map",
     "static/media/Appleseed_Alpha.jpg": "/movie-cards-library-crud/static/media/Appleseed_Alpha.498ae78a.jpg",
     "static/media/Final_Fantasy_Spirits_Within.jpg": "/movie-cards-library-crud/static/media/Final_Fantasy_Spirits_Within.0d8b80ec.jpg",
     "static/media/Ghost_In_The_Shell_2_0.jpg": "/movie-cards-library-crud/static/media/Ghost_In_The_Shell_2_0.7d6b4f9c.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac7a69e8.js",
     "static/js/2.145a5b44.chunk.js",
-    "static/css/main.1d49c535.chunk.css",
-    "static/js/main.8c7b15cb.chunk.js"
+    "static/css/main.b33fde3d.chunk.css",
+    "static/js/main.e1c1334e.chunk.js"
   ]
 }
