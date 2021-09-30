@@ -126,15 +126,17 @@ class MovieForm extends React.Component {
         onClick={ this.handleSubmit }
         className="add-button"
       >
-        Adicionar
+        Salvar
       </button>
     );
   }
 
   render() {
+    const { title } = this.props;
+
     return (
       <form className="movie-form-container">
-        <h2 className="add-title">Adicionar Filme</h2>
+        <h2 className="add-title">{ title }</h2>
         {this.renderTitleInput()}
         {this.renderSubtitleInput()}
         {this.renderImagePathInput()}
@@ -152,6 +154,7 @@ class MovieForm extends React.Component {
 MovieForm.propTypes = {
   movie: PropTypes.shape().isRequired,
   onSubmit: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default MovieForm;
